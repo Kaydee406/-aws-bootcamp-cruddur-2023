@@ -13,9 +13,13 @@
 				"ms-azuretools.vscode-docker",
 				"ms-python.python",
 				"dracula-theme.theme-dracula"
-				
+			],	
+			"settings": {
+					"terminal.integrated.fontsize":18,
+					"editor.fontsize": 14
+
+			}
 			
-			]
 		}
 	}
 
