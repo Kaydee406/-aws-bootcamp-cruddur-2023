@@ -31,6 +31,7 @@ Amplify.configure({
     userPoolWebClientId: process.env.REACT_APP_CLIENT_ID,   // OPTIONAL - Amazon Cognito Web Client ID (26-char alphanumeric string)
   }
 });
+
 const router = createBrowserRouter([
   {
     path: "/",
