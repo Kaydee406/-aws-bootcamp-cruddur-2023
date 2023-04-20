@@ -4,7 +4,7 @@
 
 - Installed AWS Amplify
 - Used AWS Cognito to generate a user pool and manually configure user identities for the signin page of the frontend application.
-- Deleted the manually created user id and used the the `import {Auth} from 'aws-amplify';` code in the signupage.js & signinpage.js and also ConfirmationPage.js file to be able to register a user, i got a confirmation code that prompted an access to the cruddur mobile application.
+- Deleted the manually created user id and used the the `import {Auth} from 'aws-amplify';` code in the signupage.js & signinpage.js and also ConfirmationPage.js file to be able to register a user, i got a confirmation code that prompted access to the cruddur mobile application.
 - Initiated a forgot password, and that returned an email with a code for password reset.
 The picture below is a snapshot of the email received for the confirmation code and password reset respectively.
 ![](https://github.com/Kaydee406/aws-bootcamp-cruddur-2023/blob/main/journal/assets/week3assignment.PNG)
