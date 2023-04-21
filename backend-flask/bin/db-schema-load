@@ -1,1 +1,3 @@
-#! /usrbin/bash
+#! /usr/bin/bash
+
+psql $CONNECTION_URL -c "drop database cruddur;"
